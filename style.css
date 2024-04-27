@@ -9,7 +9,8 @@ body {
      font-family: "Lato", sans-serif;
      font-weight: 100;
      font-style: normal;
-.customButton { 
+
+         .customButton { 
     border:9.6px solid #52C7F9;
     border-radius:43.2px;
     padding:10px;
@@ -20,7 +21,8 @@ body {
     opacity:1;
     transition:2.2s;
     } 
-    .customButton:hover {
+    
+         .customButton:hover {
     cursor:pointer;
     background-color:#F9F9F9;
     opacity:0.5;
