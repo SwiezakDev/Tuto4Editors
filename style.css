@@ -9,7 +9,27 @@ body {
      font-family: "Lato", sans-serif;
      font-weight: 100;
      font-style: normal;
-   }
+.customButton { 
+    border:9.6px solid #52C7F9;
+    border-radius:43.2px;
+    padding:10px;
+     margin:10px;
+    background-color:#52C7F9;
+    color:#000000;
+    font-weight:bold;
+    opacity:1;
+    transition:2.2s;
+    } 
+    .customButton:hover {
+    cursor:pointer;
+    background-color:#F9F9F9;
+    opacity:0.5;
+    transition:1s;
+    color:#000000;
+    } 
+     
+     }
+
    
    .lato-light {
      font-family: "Lato", sans-serif;
@@ -65,23 +85,6 @@ body {
      font-style: italic;
    }
    
-   .customButton { 
-    border:9.6px solid #52C7F9;
-    border-radius:43.2px;
-    padding:10px;
-     margin:10px;
-    background-color:#52C7F9;
-    color:#000000;
-    font-weight:bold;
-    opacity:1;
-    transition:2.2s;
-    } 
-    .customButton:hover {
-    cursor:pointer;
-    background-color:#F9F9F9;
-    opacity:0.5;
-    transition:1s;
-    color:#000000;
-    } 
+
     
    }
